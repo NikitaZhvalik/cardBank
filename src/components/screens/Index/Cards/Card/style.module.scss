@@ -1,0 +1,23 @@
+.card {
+    @apply p-8 bg-gradient-to-r from-violet-800 to-fuchsia-700 rounded-2xl
+}
+
+.nameContainer { 
+    @apply mb-16 flex justify-between items-center
+}
+
+.name {
+    @apply p-0 text-light
+}
+
+.numContainer {
+    @apply flex justify-between items-center
+}
+
+.numCard {
+    @apply p-0 text-light
+}
+
+.cvv {
+    @apply px-4 py-2 text-light bg-zinc-500
+}

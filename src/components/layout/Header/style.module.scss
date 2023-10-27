@@ -1,0 +1,31 @@
+.heading {
+    @apply mb-4 mt-6 items-center grid grid-cols-4 gap-4
+}
+
+.leftSide {
+    @apply flex justify-items-center justify-between gap-4 col-span-1
+}
+
+.logo {
+    @apply w-16 h-16
+}
+
+.boxHello {
+    @apply w-96 p-2 flex justify-evenly items-center gap-2 bg-light rounded-full
+}
+
+.name {
+    @apply text-purple
+}
+
+.hello {
+    @apply text-gray
+}
+
+.avatar {
+    @apply w-12 h-12
+}
+
+.rightSide {
+    @apply h-14 py-8 px-16 flex items-center justify-between col-span-3 gap-4  bg-light rounded-full
+}

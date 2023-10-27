@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,22 +15,14 @@ body {
 }
 
 body {
-
+    background-color: #e5e5e5;
 }
-
-:root {
-    --accent-color: #1B4688;    ;
-    --accent2-color: #E22126;
-    --light-color: #ffffff;
-    --dark-color: #000000;
-}
-
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-width: 1400px;
+    max-width: 16000px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 30px;
 }

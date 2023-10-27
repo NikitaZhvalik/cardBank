@@ -1,0 +1,11 @@
+.container {
+    @apply flex mb-4
+}
+
+.img {
+    @apply mr-2 p-2 rounded-full bg-light-gray
+}
+
+.button {
+    @apply py-1 px-4 bg-light text-dark
+}

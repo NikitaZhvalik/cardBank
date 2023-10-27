@@ -1,0 +1,11 @@
+.buttons {
+    @apply mb-8 flex justify-between
+}
+
+.buttonAdd {
+    @apply text-light bg-purple flex justify-between items-center py-4 px-8
+}
+
+.buttonRemove {
+    @apply text-red bg-light-red flex justify-between items-center py-4 px-8
+}

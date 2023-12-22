@@ -1,8 +1,8 @@
 import { FC } from "react";
+import { SiStarlingbank } from "react-icons/si";
 
 import { NavLink } from "react-router-dom";
 
-import logo from "../../../assets/imgs/header/logo.png"
 import avatar from "../../../assets/imgs/header/avatar.png"
 
 import { navLinksHeader } from "../../../utils/const"
@@ -13,9 +13,9 @@ const Header:FC = () => {
     return (
             <div className={styles.heading}>
                 <div className={styles.leftSide}>
-                    <div className={styles.logo}>
-                        <img src={logo} alt="logo" />
-                    </div>
+                    <NavLink className={styles.logoContainer} to='#'>
+                        <SiStarlingbank size={45} />
+                    </NavLink>
                     <div className={styles.boxHello}>
                         <p className={styles.hello}>Welcome back, <span className={styles.name}> Nikita!</span></p>
                         <div className={styles.avatar}>

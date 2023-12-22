@@ -1,9 +1,9 @@
 import { FC } from "react";
-import styles from "./styles.module.scss"
 
 const History:FC = () => {
+
     return (
-        <div className={styles.history}>History</div>
+        <div className="hover:after:content-['⟶'] hover:border-b hover:border-purple">History</div>
     );
 }
  

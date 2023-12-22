@@ -6,8 +6,8 @@
     @apply flex justify-items-center justify-between gap-4 col-span-1
 }
 
-.logo {
-    @apply w-16 h-16
+.logoContainer {
+    @apply p-2 flex justify-center justify-items-center bg-white rounded-full
 }
 
 .boxHello {

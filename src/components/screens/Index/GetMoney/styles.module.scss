@@ -1,3 +1,15 @@
-.getMoney {
+.money {
+    @apply w-72 mt-14 mb-6
+}
 
+.link {
+    @apply flex items-center gap-2
+}
+
+.getMoney {
+    @apply text-purple
+}
+
+.icon {
+    @apply text-purple
 }

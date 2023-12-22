@@ -1,9 +1,5 @@
 import { FC } from "react";
-
-import details from "../../../../assets/imgs/cards/details.png"
-import pin from "../../../../assets/imgs/cards/pin.png"
-import security from "../../../../assets/imgs/cards/security.png"
-import limits from "../../../../assets/imgs/cards/limits.png"
+import { AiFillCreditCard, AiOutlineEyeInvisible, AiFillSecurityScan, AiTwotoneEdit } from "react-icons/ai";
 
 import Details from "./Details/Details";
 import WorkWithCard from "./WorkWithCard/WorkWithCard";
@@ -20,10 +16,10 @@ const Cards:FC = () => {
                 <Card />
             </div>
             <div className={styles.container}>
-                <Details children={'Show Card Details'} img={details} alt={'details'}/>
-                <Details children={'Your PIN'} img={pin} alt={'details'}/>
-                <Details children={'Security Code'} img={security} alt={'details'}/>
-                <Details children={'Edit Limits'} img={limits} alt={'details'}/>
+                <Details children={'Show Card Details'} img={<AiFillCreditCard size={30}/>} alt={'details'}/>
+                <Details children={'Show Card Details'} img={<AiOutlineEyeInvisible size={30}/>} alt={'details'}/>
+                <Details children={'Show Card Details'} img={<AiFillSecurityScan size={30}/>} alt={'details'}/>
+                <Details children={'Show Card Details'} img={<AiTwotoneEdit size={30}/>} alt={'details'}/>
             </div>
             <WorkWithCard />
         </>

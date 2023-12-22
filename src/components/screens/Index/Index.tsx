@@ -24,7 +24,7 @@ const Index = () => {
                     <div className="p-6 bg-light rounded-2xl">
                         <Balance />
                     </div>
-                    <div className="p-6 bg-dark rounded-2xl bg-[url('/src/assets/imgs/invite/code.png')] bg-top bg-no-repeat bg-contain">
+                    <div className="flex items-end p-6 bg-dark rounded-2xl bg-[url('/src/assets/imgs/invite/code.png')] bg-top bg-no-repeat bg-contain">
                         <InviteCode />
                     </div>
                 </div>
